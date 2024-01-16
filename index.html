@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html>
+<head class="head-1">
+	<div>
+	<title>Just a lil something</title>
+	<link rel="icon" type="image/png" href="/blonde.png">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<a class="button" href="music.html" target="_blank">songs</a>
+	<main>
+		<div class="head-img"></div>
+	</main>
+	</div>
+	<style>
+		.file-upload{
+			display: inline-flex;
+			align-items: center;
+			font-size: 15px;
+		}
+		.file-upload__input{
+			display: none;
+		}
+		.file-upload__button{
+			-webkit-appearance:none;
+			background: #222;
+			border: 2px solid #333;
+			border-radius: 4px;
+			outline: none;
+			padding: 0.5em 0.8em;
+			margin-right: 15px;
+			color: #fff;
+			font-size: 1em;
+			font-family: sans-serif;
+			font-weight: bold;
+			cursor: pointer;
+		}
+		.file-upload__button:active {
+			background: #333;
+		}
+		.file-upload__label{
+			max-width: 250px;
+			font-size: 0.95em;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+		}
+	</style>
+</head>
+
+<!--<main>
+	<div class="head-img"></div>
+</main>-->
+
+<body>
+	<div class="container">
+		<div class="box-1">
+			<h1>Hello World</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<a>From Africa Renewal: April 2018 - July 2018 By: Kerry Dimmer</a>
+			<a class="button" href="blog.html" target="_blank">Read more</a>
+		</div>
+
+		<div class="box-2">
+			<h1>Goodbye World</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<a class="button" href="">Read more</a>
+		</div>
+
+		<div class="categories">
+			<h2>Catergories</h2>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Images</a></li>
+				<li><a href="link.html">Explore</a></li>
+				<li><a href="test.html">Articles</a></li>
+				<li><a href="#">Extras</a></li>
+			</ul>
+		</div>
+
+		<hr>
+		<!--<div class="nav">
+			<h2 class="head"><a href="#">Music</a></h2>
+		
+			<input type="checkbox">
+			<span></span>
+        	<span></span>
+        	<span></span>
+        	<div class="menu">
+        		<h2 class="head"><a href="#">Music</a></h2>
+			<li>
+				<img class="fit-picture"
+				src="media/King_shit.jpg"
+				alt="Zulu Man With Some Power">
+
+				<figure>
+				<figcaption><a href="">Listen to King Shxt🔥🔥:</a></figcaption>
+				<audio 
+				controls
+				src="media/01 King Shit.mp3"
+				alt="Your browser does not support the">
+				<code>audio</code> element.
+				</audio>
+				</figure>
+			</li>
+			<hr>
+			<li class="music">
+				<img class="fit-picture"
+				src="media/Keem.jpg"
+				alt="Orange Soda">
+
+				<figure>
+				<figcaption>Listen to ORANGE SODA🔥🔥:</figcaption>
+				<audio 
+				controls
+				src="media/12. ORANGE SODA.mp3"
+				alt="Your browser does not support the">
+				<code>audio</code> element.
+				</audio>
+				</figure>
+			</li>
+			
+			<li class="music">
+				<img class="fit-picture"
+				src="media/art.jpg"
+				alt="Zulu Man With Some Power">
+
+				<figure>
+				<figcaption>Listen to King Shxt🔥🔥:</figcaption>
+				<audio 
+				controls
+				src="media/01 King Shit.mp3"
+				alt="Your browser does not support the">
+				<code>audio</code> element.
+				</audio>
+				</figure>
+			</li>
+			
+			<li class="music">
+				<img class="fit-picture"
+				src="media/art.jpg"
+				alt="Zulu Man With Some Power">
+
+				<figure>
+				<figcaption>Listen to King Shxt🔥🔥:</figcaption>
+				<audio 
+				controls
+				src="media/01 King Shit.mp3"
+				alt="Your browser does not support the">
+				<code>audio</code> element.
+				</audio>
+				</figure>
+			</li>
+			
+			<li class="music">
+				<img class="fit-picture"
+				src="media/art.jpg"
+				alt="Zulu Man With Some Power">
+
+				<figure>
+				<figcaption>Listen to King Shxt🔥🔥:</figcaption>
+				<audio 
+				controls
+				src="media/01 King Shit.mp3"
+				alt="Your browser does not support the">
+				<code>audio</code> element.
+				</audio>
+				</figure>
+			</li>
+			
+			<li class="music">
+				<img class="fit-picture"
+				src="media/art.jpg"
+				alt="Zulu Man With Some Power">
+
+				<figure>
+				<figcaption>Listen to King Shxt🔥🔥:</figcaption>
+				<audio 
+				controls
+				src="media/01 King Shit.mp3"
+				alt="Your browser does not support the">
+				<code>audio</code> element.
+				</audio>
+				</figure>
+			</li>
+			
+			<li class="music">
+				<img class="fit-picture"
+				src="media/art.jpg"
+				alt="Zulu Man With Some Power">
+
+				<figure>
+				<figcaption>Listen to King Shxt🔥🔥:</figcaption>
+				<audio 
+				controls
+				src="media/01 King Shit.mp3"
+				alt="Your browser does not support the">
+				<code>audio</code> element.
+				</audio>
+				</figure>
+			</li>
+			
+			<li class="music">
+				<img class="fit-picture"
+				src="media/art.jpg"
+				alt="Zulu Man With Some Power">
+
+				<figure>
+				<figcaption>Listen to King Shxt🔥🔥:</figcaption>
+				<audio 
+				controls
+				src="media/01 King Shit.mp3"
+				alt="Your browser does not support the">
+				<code>audio</code> element.
+				</audio>
+				</figure>
+			</li>
+			
+			<li class="music">
+				<img class="fit-picture"
+				src="media/art.jpg"
+				alt="Zulu Man With Some Power">
+
+				<figure>
+				<figcaption>Listen to King Shxt🔥🔥:</figcaption>
+				<audio 
+				controls="blue" 
+				src="media/01 King Shit.mp3"
+				alt="Your browser does not support the">
+				<code>audio</code> element.
+				</audio>
+				</figure>
+			</li>
+			
+			<li class="music">
+				<img class="fit-picture"
+				src="media/art.jpg"
+				alt="Zulu Man With Some Power">
+
+				<figure>
+				<figcaption>Listen to King Shxt🔥🔥:</figcaption>
+				<audio 
+				controls
+				src="media/01 King Shit.mp3"
+				alt="Your browser does not support the">
+				<code>audio</code> element.
+				</audio>
+				</figure>
+			</li>
+			
+			<li class="music">
+				<img class="fit-picture"
+				src="media/art.jpg"
+				alt="Zulu Man With Some Power">
+
+				<figure>
+				<figcaption>Listen to King Shxt🔥🔥:</figcaption>
+				<audio 
+				controls
+				src="media/01 King Shit.mp3"
+				alt="Your browser does not support the">
+				<code>audio</code> element.
+				</audio>
+				</figure>
+			</li>
+			
+			<li class="music">
+				<img class="fit-picture"
+				src="media/art.jpg"
+				alt="Zulu Man With Some Power">
+
+				<figure>
+				<figcaption>Listen to King Shxt🔥🔥:</figcaption>
+				<audio 
+				controls
+				src="media/01 King Shit.mp3"
+				alt="Your browser does not support the">
+				<code>audio</code> element.
+				</audio>
+				</figure>
+			</li>
+			
+			<li class="music">
+				<img class="fit-picture"
+				src="media/art.jpg"
+				alt="Zulu Man With Some Power">
+
+				<figure>
+				<figcaption>Listen to King Shxt🔥🔥:</figcaption>
+				<audio 
+				controls
+				src="media/01 King Shit.mp3"
+				alt="Your browser does not support the">
+				<code>audio</code> element.
+				</audio>
+				</figure>
+			</li>
+			
+			<li class="music">
+				<img class="fit-picture"
+				src="media/art.jpg"
+				alt="Zulu Man With Some Power">
+
+				<figure>
+				<figcaption>Listen to King Shxt🔥🔥:</figcaption>
+				<audio 
+				controls
+				src="media/01 King Shit.mp3"
+				alt="Your browser does not support the">
+				<code>audio</code> element.
+				</audio>
+				</figure>
+			</li>
+			
+			<li class="music">
+				<img class="fit-picture"
+				src="media/art.jpg"
+				alt="Zulu Man With Some Power">
+
+				<figure>
+				<figcaption>Listen to King Shxt🔥🔥:</figcaption>
+				<audio 
+				controls
+				src="media/01 King Shit.mp3"
+				alt="Your browser does not support the">
+				<code>audio</code> element.
+				</audio>
+				</figure>
+			</li>
+			
+			<li class="music">
+				<img class="fit-picture"
+				src="media/art.jpg"
+				alt="Zulu Man With Some Power">
+
+				<figure>
+				<figcaption>Listen to King Shxt🔥🔥:</figcaption>
+				<audio 
+				controls
+				src="media/01 King Shit.mp3"
+				alt="Your browser does not support the">
+				<code>audio</code> element.
+				</audio>
+				</figure>
+			</li>
+			
+			<li>
+				<img class="fit-picture"
+				src="media/art.jpg"
+				alt="Zulu Man With Some Power">
+
+				<figure>
+				<figcaption>Listen to King Shxt🔥🔥:</figcaption>
+				<audio 
+				controls
+				src="media/01 King Shit.mp3"
+				alt="Your browser does not support the">
+				<code>audio</code> element.
+				</audio>
+				</figure>
+			</li>
+			
+			<li class="music">
+				<img class="fit-picture"
+				src="media/art.jpg"
+				alt="Zulu Man With Some Power">
+
+				<figure>
+				<figcaption>Listen to King Shxt🔥🔥:</figcaption>
+				<audio 
+				controls
+				src="media/01 King Shit.mp3"
+				alt="Your browser does not support the">
+				<code>audio</code> element.
+				</audio>
+				</figure>
+			</li>
+			
+			<li class="music">
+				<img class="fit-picture"
+				src="media/art.jpg"
+				alt="Zulu Man With Some Power">
+
+				<figure>
+				<figcaption>Listen to King Shxt🔥🔥:</figcaption>
+				<audio 
+				controls
+				src="media/01 King Shit.mp3"
+				alt="Your browser does not support the">
+				<code>audio</code> element.
+				</audio>
+				</figure>
+			</li>
+			
+			<li class="music">
+				<img class="fit-picture"
+				src="media/art.jpg"
+				alt="Zulu Man With Some Power">
+
+				<figure>
+				<figcaption>Listen to King Shxt🔥🔥:</figcaption>
+				<audio 
+				controls
+				src="media/01 King Shit.mp3"
+				alt="Your browser does not support the">
+				<code>audio</code> element.
+				</audio>
+				</figure>
+			</li>
+			
+			<li class="music">
+				<img class="fit-picture"
+				src="media/art.jpg"
+				alt="Zulu Man With Some Power">
+
+				<figure>
+				<figcaption>Listen to King Shxt🔥🔥:</figcaption>
+				<audio 
+				controls
+				src="media/01 King Shit.mp3"
+				alt="Your browser does not support the">
+				<code>audio</code> element.
+				</audio>
+				</figure>
+			</li>
+			
+			<li class="music">
+				<img class="fit-picture"
+				src="media/art.jpg"
+				alt="Zulu Man With Some Power">
+
+				<figure>
+				<figcaption>Listen to King Shxt🔥🔥:</figcaption>
+				<audio class="fixed" 
+				controls
+				src="media/01 King Shit.mp3"
+				alt="Your browser does not support the">
+				<code>audio</code> element.
+				</audio>
+				</figure>
+			</li>
+			</div> -->
+		
+		</div>
+		<hr>
+
+		<form class="my-form">
+			<div class="form-group">
+				<label>Name: </label>
+				<input type="text" name="Name" placeholder="Enter First name">
+			</div>
+			<div class="form-group">
+				<label>Email: </label>
+				<input type="Email" name="Email" placeholder="Enter Email">
+			</div>
+			<div class="form-group">
+				<label>Message</label>
+				<textarea name="Message" placeholder="Enter Message"></textarea>
+			</div>
+			<input class="button" type="submit" value="submit" name="click me">
+			<div>
+				<!--<div class="file-upload">
+					<input class="file-upload__input" type="file" name="myfile[]" id="myFile" multiple>
+					<button class="file-upload__button" type="button">Choose file(s)</button>
+					<span class="file-upload__label"></span>
+				</div>
+				<script>
+					Array.prototype.forEach.call(document.querySelectorAll('.file-upload__button'), function (button) {
+						const hiddenInput = button.parentElement.querySelectorAll('file-upload__input');
+						const label= button.parentElement.querySelectorAll('file-upload__label');
+						const defaultLabelText = 'No file(s) selected';
+						//set default text for label
+						label.textContent = defaultLabelText;
+						label.title = defaultLabelText;
+
+						button.addEventListener('click', function(){
+							hiddenInput.click();
+						});
+
+						hiddenInput.addEventListener('change', function() {
+							console.log(hiddenInput.files);
+						});
+					});
+				</script>
+			</div>-->
+			 <h1>Please Choose a Song file</h1>
+		    <form name = "JSONUploadForm">
+		        <input type = "file" name="file" accept = ".mp3"/> <br/>
+		        <input type = "button" value = "Click to upload!" name = "button" onClick = "submitSong();"/>
+		    </form>
+		</form>
+<br>
+		<div class="block">
+			<h3>Heading</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+		</div>
+
+		<div class="block">
+			<h3>Heading</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+		</div>
+
+		<div class="block">
+			<h3>Heading</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+		</div>
+
+		<div class="clr"></div>
+
+		<div id="main-block">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+		</div>
+
+			<div id="sidebar"><p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+			</div>
+
+			<div class="clr"></div>
+
+			<div class="p-box">
+				<h1>Hello</h1>
+				<!img class="fit-pic" src="C:\Users\SPESH\Desktop\IMG-20221107-WA0008.jpg">
+				<h2>Goodbye</h2>
+			</div>
+<hr>
+			<ul class="my-list">
+				<li>lights</li>
+				<li>Cell phones</li>
+				<li>Wiring</li>
+				<li>Kettles</li>
+				<li>Geysers</li>
+				<li>TVs</li>
+				<li>and many more electronics</li>
+				<li>List Item</li>
+				<li>List Item</li>
+				<li>List Item</li>
+				<li>List Item</li>
+				<li>List Item</li>
+			</ul>
+
+	</div><!-- container-->
+
+	<!-- <a class="fix-me button" href="">Hello</a> -->
+
+	<div>
+			<a class="top" href="#top">Back to top</a>
+	</div>
+			<a href="mailto:spesh2802@gmail.com?subject=Email Assistance">Email Help Desk</a>
+	<div style="margin-top: 500px"></div>
+	<p class="copyright">Copyright &copy; 2021, my website</p>
+</body>
+</html>
